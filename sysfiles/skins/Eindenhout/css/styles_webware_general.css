@@ -1,0 +1,350 @@
+/* General Webware related styles */
+
+/* Webware data table styles */
+
+.tblData {
+    /* applied to all sorts of tabulair data display tables */
+    border-collapse: collapse;
+    font-size: 0.9em;
+}
+.tblData th
+{
+    border: 1px solid #ea3525;
+    background-color: #cc674b;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 2px;
+}
+.tblData th a
+{
+}
+.tblData th a:link, .tblData th a:visited, .tblData th a:hover, .tblData th a:active
+{
+    text-decoration: none;
+    color: #FFF;
+}
+.tblData th a:hover
+{
+    text-decoration: underline;
+}
+.tblData th a.currentSort:link, .tblData th a.currentSort:visited, .tblData th a.currentSort:hover, .tblData th a.currentSort:active
+{
+    /* some column headers have arrows to indicate sorting feature */
+    font-size: larger;
+    font-weight: bold;
+    color: #FFF !important;
+}
+.tblData td
+{
+    border: 1px solid #ea3525;
+    background-color: #FFFFFF;
+    color: #cc674b;
+    font-weight: normal;
+    padding: 2px;
+}
+.tblData table th, .tblData table td
+{
+    border: none;
+}
+.tblData tr.onAlternate
+{
+    background-color: #F5F5F5;
+}
+.tblData tr.onMouseOver
+{
+    background-color: #DCDCDC;
+}
+
+
+.tblEditor
+{
+   /* can be applied to tabulair data display tables that are inserted via online mini-editor */
+   /* replication of some tblData definitions to make this type of tables similar */
+   border-collapse: collapse;
+   font-size: 0.9em;
+}
+.tblEditor tr:first-child td
+{
+    border: 1px solid #ea3525;
+    background-color: #cc674b;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 2px;
+}
+.tblEditor tr:first-child td a
+{
+}
+.tblEditor tr:first-child td a:link, .tblEditor tr:first-child td a:visited, .tblEditor tr:first-child td a:hover, .tblEditor tr:first-child td a:active
+{
+    text-decoration: none;
+    color: #FFF;
+}
+.tblEditor tr:first-child td a:hover
+{
+    text-decoration: underline;
+}
+.tblEditor td
+{
+    border: 1px solid #ea3525;
+    background-color: #FFFFFF;
+    color: #cc674b;
+    font-weight: normal;
+    padding: 2px;
+}
+.tblEditor table tr:first-child td, .tblEditor table td
+{
+    border: none;
+}
+.tblEditor tr.onAlternate
+{
+    background-color: #F5F5F5;
+}
+.tblEditor tr.onMouseOver
+{
+    background-color: #DCDCDC;
+}
+
+
+.tblDataEntry
+{
+    /* applied to data entry form tables */
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9em;
+}
+.tblDataEntry tr
+{
+    vertical-align: top;
+}
+.tblDataEntry th
+{
+    border: 1px solid #ea3525;
+    background-color: #cc674b;
+    color: #FFFFFF;
+    width: 25%;
+    font-weight: bold;
+    padding: 2px;
+    text-align: right;
+}
+.tblDataEntry td
+{
+    border: 1px solid #ea3525;
+    background-color: #FFFFFF;
+    color: #cc674b;
+    font-weight: normal;
+    padding: 2px;
+}
+.tblDataEntry table th, .tblDataEntry table td
+{
+    border: none;
+}
+
+
+.tblCalendar
+{
+    /* applied to event/birthday calendar tables */
+    border-collapse: collapse;
+}
+.tblCalendar th
+{
+    border: 1px solid #ea3525;
+    background-color: #cc674b;
+    color: #FFFFFF;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    padding: 2px;
+}
+.tblCalendar th a:link, .tblCalendar th a:visited, .tblCalendar th a:active
+{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.tblCalendar th a:hover
+{
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+.tblCalendar td
+{
+    /* cells current month */
+    border: 1px solid #ea3525;
+    background-color: #FFF;
+    color: #cc674b;
+    font-size: 11px;
+    font-weight: normal;
+    padding: 2px;
+}
+.tblCalendar td a
+{
+    /*needed so that the whole cell is highlighted on mouseover*/
+    width: 100%;
+    display: block;
+}
+.tblCalendar td a:link, .tblCalendar td a:visited, .tblCalendar td a:active
+{
+    color: #ea3525;
+    text-decoration: none;
+}
+.tblCalendar td a:hover
+{
+    color: #FFF;
+    text-decoration: none;
+    background-color: #cc674b;
+}
+td.calDimmed
+{
+    /* cells previous or next month */
+    color: #999999;
+}
+td.calEvent
+{
+    /* there is an event on this date: make it stand out from the other calendar cells */
+    background-color: #CCCCCC;
+}
+
+
+/* wsTreeGrid styles */
+.treeGrid td div
+{
+    height: 20px !important;
+}
+.treeGrid a:link, .treeGrid a:visited, .treeGrid a:active
+{
+    text-decoration: none;
+}
+.treeGrid td.treeSelected a:link, .treeGrid td.treeSelected a:visited, .treeGrid td.treeSelected a:active
+{
+    color: #cc674b;
+}
+.treeGrid a:hover
+{
+    text-decoration: underline;
+}
+
+/* Webware form styles */
+form
+{
+    margin: 0;
+    padding: 0;
+}
+.loginInputField
+{
+    /* input field in login form on front page */
+    width: 120px;
+}
+.searchInputField
+{
+    /* input field in search form on front page */
+    width: 100px;
+}
+.longInputField, .longTextField
+{
+    width: 300px;
+}
+.mediumInputField, .mediumTextField
+{
+    width: 212px;
+}
+.shortInputField, .shortTextField
+{
+    width: 80px;
+}
+
+/* Webware miscellaneous styles */
+.divSearchResult
+{
+    border: 1px dotted #cc674b;
+    padding: 2px;
+}
+.feedback
+{
+    /* thank you text for eg. when contact form is submitted */
+    color: #ea3525;
+}
+.txtNote, .note
+{
+    font-size: 0.7em;
+}
+.txtError, .error
+{
+    /* error messages */
+    color: #F00; /*	font-weight: bold; */
+}
+.txtRequired, .required
+{
+    /* indication of required fields in forms */
+    color: #F00 !important;
+    font-size: 0.9em;
+}
+.txtHint, .hint
+{
+    color: #ea3525;
+}
+.backToTop
+{
+    /* jump back to top link */
+    font-size: smaller;
+}
+.txtReadMore, .readmore
+{
+    /* read more link in news sections */
+    font-size: smaller;
+}
+
+/* Login section styles */
+#divLogin
+{
+    text-align: center;
+}
+
+/* News styles */
+.divNews2 h1
+{
+    display: none;
+}
+.NewsTitle {
+	color: #f1bf2a;
+}
+.divNews2 .txtReadMore {
+	display: none;
+}
+
+.divNews2 p
+{
+    padding-left: 10px;
+    font-size: 1.0em;
+    margin-bottom: 0px;
+    margin-top: 2px;
+}
+
+/*Style Applied to the Paragraphs for Copyright */
+p.copyright
+{
+    color: #cc674b;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    line-height: normal;
+    padding-top: 10px;
+    text-align: center;
+}
+p.copyright a:link
+{
+    color: #ea3525;
+    text-decoration: underline;
+}
+p.copyright a:visited
+{
+    color: #ea3525;
+    text-decoration: underline;
+}
+p.copyright a:hover
+{
+    color: #ea3525;
+    text-decoration: none;
+}
+p.copyright a:active
+{
+    color: #ea3525;
+    text-decoration: underline;
+}

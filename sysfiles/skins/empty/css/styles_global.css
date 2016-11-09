@@ -1,0 +1,34 @@
+/* CSS by Webware Systems BV, not to be copied or distributed */
+/* http://www.clubwebware.nl */
+
+/* global page styles */
+body {
+	margin:0;
+	padding: 10px;
+	background-color: #FFF;
+	color: #000;
+	font : 76% Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	font-size : 1.4em;
+}
+h2 {
+	font-size : 1.2em;
+	border-bottom : 1px dashed #1E90FF;
+}
+h3 {
+	font-size : 1.1em;
+	font-weight : bold;
+	font-style : italic;
+}
+
+/* default links styles */
+a:link, a:visited,a:active { text-decoration : underline;  }
+a:hover { text-decoration: none; }
+
+/* forms styles */
+form {
+	margin: 0;
+	padding: 0;
+}

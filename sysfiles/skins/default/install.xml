@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<skin>
+  <configvars>
+    <var name="NavULSubClass">has-dropdown</var>
+    <var name="NavULSubClassUL">dropdown</var>
+    <var name="NavActivePageClass">active</var>
+    <var name="SiteTemplateStyles">css/style.css</var>
+    <var name="TablelessForms">True</var>
+    <var name="ResponsiveGrids">True</var>
+    <var name="FacebookLikeWidgetLayout">standard</var>
+    <var name="BreadCrumbsAsUL">True</var>
+    <var name="BreadCrumbsAsULClassUL">breadcrumbs</var>
+    <var name="BreadCrumbsAsULClassLIunavailable">unavailable</var>
+    <var name="BreadCrumbsAsULClassLIcurrent">current</var>
+  </configvars>
+</skin>

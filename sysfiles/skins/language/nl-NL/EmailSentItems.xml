@@ -1,0 +1,65 @@
+<dbtable>
+  <table name="EmailSentItems">
+    <externalname>Postvak verzonden email</externalname>
+    <columns>
+      <column name="boolPriority">
+        <externalname>Hoge prioriteit?</externalname>
+      </column>
+      <column name="boolReadReceipt">
+        <externalname>Leesbevestiging?</externalname>
+      </column>
+      <column name="dateInsert">
+        <externalname>Toegevoegd</externalname>
+        <helptext><![CDATA[<p>Datum/tijd waarop dit record is opgevoerd.</p>]]></helptext>
+      </column>
+      <column name="dateUpdate">
+        <externalname>Laatst gewijzigd</externalname>
+        <helptext><![CDATA[<p>Datum/tijd waarop dit record voor het laatst is gewijzigd.</p>]]></helptext>
+      </column>
+      <column name="ID">
+        <externalname>ID</externalname>
+      </column>
+      <column name="memAttachments">
+        <externalname>Bijlage(n)</externalname>
+      </column>
+      <column name="memMessage">
+        <externalname>Bericht</externalname>
+      </column>
+      <column name="numInsertAuthorID">
+        <externalname>Toegevoegd door</externalname>
+        <helptext><![CDATA[<p>Gebruiker die dit record heeft toegevoegd.</p>]]></helptext>
+      </column>
+      <column name="numUpdateAuthorID">
+        <externalname>Laatst gewijzigd door</externalname>
+        <helptext><![CDATA[<p>Gebruiker die dit record het laatste heeft gewijzgid.</p>]]></helptext>
+      </column>
+      <column name="txtBcc">
+        <externalname>Bcc</externalname>
+      </column>
+      <column name="txtCc">
+        <externalname>Cc</externalname>
+      </column>
+      <column name="txtFrom">
+        <externalname>Van</externalname>
+      </column>
+      <column name="txtSubject">
+        <externalname>Onderwerp</externalname>
+      </column>
+      <column name="memTo">
+        <externalname>Aan</externalname>
+      </column>
+      <column name="numUserID">
+        <externalname>Berichteigenaar</externalname>
+      </column>
+      <column name="boolSendError">
+        <externalname>Fout?</externalname>
+      </column>
+      <column name="memSendError">
+        <externalname>Foutboodschap</externalname>
+      </column>
+      <column name="memAttachments">
+        <externalname>Bijlage(n)</externalname>
+      </column>
+    </columns>
+  </table>
+</dbtable>

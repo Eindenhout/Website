@@ -1,0 +1,160 @@
+/* General Webware related styles */
+
+/* Webware data table styles */
+.tblData, .tblDataEntry, .tblEditor { /* applied to all sorts of data display tables */
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    .tblData thead, .tblData tbody, .tblData tfoot {
+        padding: 0;
+        margin: 0;
+    }
+
+    .tblData th, .tblData td, .tblDataEntry th, .tblDataEntry td, .tblCalendar th, .tblCalendar td, .tblEditor th, .tblEditor tr:first-child td {
+        border: 1px solid #C7DCE5;
+        color: black;
+        background-color: white;
+        padding: 2px;
+        font-size: 0.9em;
+        font-weight: bold;
+    }
+
+        .tblData th a:link, .tblData th a:visited, .tblData th a:active {
+            text-decoration: none;
+        }
+
+        .tblData th a:hover {
+            text-decoration: underline;
+        }
+
+        .tblData th a.currentSort:link, .tblData th a.currentSort:visited, .tblData th a.currentSort:hover, .tblData th a.currentSort:active {
+            /* some column headers have arrows to indicate sorting feature */
+            font-size: larger;
+            font-weight: bold;
+        }
+
+    .tblData table th, .tblData table td {
+        border: none;
+    }
+
+    /* applied to all sorts of data entry tables */
+    .tblDataEntry th {
+        text-align: right;
+        width: 25%;
+    }
+
+    /* applied to tables inserted from the editor, given this class */
+    .tblEditor tr:first-child td {
+    }
+
+        .tblEditor tr:first-child td a {
+        }
+
+            .tblEditor tr:first-child td a:link, .tblEditor tr:first-child td a:visited, .tblEditor tr:first-child td a:active {
+                text-decoration: none;
+            }
+
+            .tblEditor tr:first-child td a:hover {
+                text-decoration: underline;
+            }
+
+/* event/birthday calendar styles */
+.tblCalendar {
+    border-collapse: collapse;
+}
+
+    .tblCalendar th, .tblCalendar td, .tblCalendar div {
+        text-align: center !important;
+    }
+
+    .tblCalendar td {
+        width: 14%;
+    }
+
+        .tblCalendar td a { /*needed so that the whole cell is highlighted on mouseover*/
+            width: 100%;
+            display: block;
+        }
+
+            .tblCalendar td a:link, .tblCalendar td a:visited, .tblCalendar td a:active {
+                color: #E3E3A9;
+                text-decoration: none;
+            }
+
+            .tblCalendar td a:hover {
+                color: #FFF;
+                text-decoration: none;
+                background: #90B2D3;
+            }
+
+td.calDimmed { /* cells previous or next month */
+    color: #999999;
+}
+
+td.calEvent { /* there is an event on this date: make it stand out from the other calendar cells */
+    background: #228CD7;
+}
+
+/* Webware form styles */
+form {
+    margin: 0;
+    padding: 0;
+}
+
+/* Webware miscellaneous styles */
+.divSearchResult {
+    border: 1px dotted #C7DCE5;
+    padding: 2px;
+}
+
+.feedback { /* thank you text for when contact form is submitted */
+    color: #D8671A;
+}
+
+.txtNote, .note {
+    font-size: 0.7em;
+}
+
+.txtError, .error { /* error messages */
+    color: #F00;
+}
+
+.txtRequired, .required { /* indication of required fields in forms */
+    color: #F00;
+    font-size: 0.9em;
+}
+
+.txtHint, .hint {
+    color: #F00;
+}
+
+.backToTop { /* jump back to top link */
+    font-size: smaller;
+}
+
+.txtReadMore, .readmore { /* read more link in news sections */
+    font-size: smaller;
+}
+
+/* News styles */
+.divNews2 h1 {
+    font-size: 0.9em;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.divNews2 p {
+    padding-left: 10px;
+    font-size: 1.0em;
+    margin-bottom: 0px;
+    margin-top: 2px;
+}
+
+/*Style Applied to the Paragraphs for Copyright */
+p.copyright {
+    font-size: 0.9em;
+    line-height: normal;
+    padding-top: 10px;
+    text-align: center;
+}

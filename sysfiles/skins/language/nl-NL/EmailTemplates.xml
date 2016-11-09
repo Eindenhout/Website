@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dbtable>
+  <table name="EmailTemplates">
+    <externalname>Emailsjablonen</externalname>
+    <columns>
+      <column name="dateInsert">
+        <externalname>Toegevoegd</externalname>
+        <helptext><![CDATA[<p>Datum/tijd waarop dit record is opgevoerd.</p>]]></helptext>
+      </column>
+      <column name="dateUpdate">
+        <externalname>Laatst gewijzigd</externalname>
+        <helptext><![CDATA[<p>Datum/tijd waarop dit record voor het laatst is gewijzigd.</p>]]></helptext>
+      </column>
+      <column name="numInsertAuthorID">
+        <externalname>Toegevoegd door</externalname>
+        <helptext><![CDATA[<p>Gebruiker die dit record heeft toegevoegd.</p>]]></helptext>
+      </column>
+      <column name="numUpdateAuthorID">
+        <externalname>Laatst gewijzigd door</externalname>
+        <helptext><![CDATA[<p>Gebruiker die dit record het laatste heeft gewijzgid.</p>]]></helptext>
+      </column>
+      <column name="numCatID">
+        <externalname>Groep</externalname>
+        <helptext><![CDATA[<p>Emailsjabloongroep waartoe dit sjabloon behoort.</p>]]></helptext>
+      </column>
+      <column name="txtName">
+        <externalname>Naam</externalname>
+        <helptext><![CDATA[<p>Naam van het sjabloon (max. 150 karakters). Hieraan kunt u het sjabloon herkennen in diverse overzichten.</p>]]></helptext>
+      </column>
+      <column name="memDesc">
+        <externalname>Omschrijving</externalname>
+        <helptext><![CDATA[<p>Omschrijving van het sjabloon.</p>]]></helptext>
+      </column>
+      <column name="txtFileName">
+        <externalname>HTML-opmaakbestand</externalname>
+        <helptext><![CDATA[<p>Bestandsnaam van het externe HTML-bestand dat gebruikt moet worden voor de opmaak van mails die verstuurd worden o.b.v. dit sjabloon.</p>]]></helptext>
+      </column>
+      <column name="memCode">
+        <externalname>Bericht</externalname>
+        <helptext><![CDATA[<p>De berichttekst van het sjabloon.</p>]]></helptext>
+      </column>
+      <column name="txtSubject">
+        <externalname>Onderwerp</externalname>
+        <helptext><![CDATA[<p>Onderwerp van de email.</p>]]></helptext>
+      </column>
+      <column name="memAttachments">
+        <externalname>Bijlage(n)</externalname>
+        <helptext><![CDATA[<p>Bestandspad(en) van eventuele bijlage(n) van de email.</p>]]></helptext>
+      </column>
+      <column name="boolPriority">
+        <externalname>Hoge prioriteit?</externalname>
+        <helptext><![CDATA[<p>Moet de email met hoge prioriteit (met uitroepteken) verstuurd worden?</p>]]></helptext>
+      </column>
+      <column name="boolReadReceipt">
+        <externalname>Leesbevestiging?</externalname>
+        <helptext><![CDATA[<p>Moet de email met verzoek om leesbevestiging verstuurd worden?</p><strong>Let op:</strong><ol><li>Zelfs als de ontvanger aan het verzoek om ontvangstbevesting tegemoet komt, betekent dat nog niet dat hij/zij de email ook daadwerkelijk gelezen heeft. Het betekent alleen dat de email op het scherm van de ontvanger gestaan heeft.</li></ol>]]></helptext>
+      </column>
+      <column name="boolPublish">
+        <externalname>Publiceren?</externalname>
+        <helptext><![CDATA[<p>Mag dit sjabloon gebruikt worden voor het versturen van online email?</p>]]></helptext>
+      </column>
+      <column name="boolRestrictedAccess">
+        <externalname>Beschikbaar voor</externalname>
+        <helptext><![CDATA[<p>Emailsjablonen zijn altijd alleen beschikbaar voor website-bezoekers die online email mogen versturen. Maar welke groepen leden/relaties mogen gebruik maken van dit specifieke emailsjabloon?</p>]]></helptext>
+      </column>
+      <column name="boolSystemEmail">
+        <externalname>Systeememail?</externalname>
+        <helptext><![CDATA[<p>Is dit een sjabloon voor emails die automatisch vanuit het systeem verstuurd worden?</p>]]></helptext>
+      </column>
+      <column name="memDefaultCode">
+        <externalname>Systeemstandaardbericht</externalname>
+        <helptext><![CDATA[<p>Systeemstandaard: De berichttekst van het sjabloon.</p>]]></helptext>
+      </column>
+      <column name="txtDefaultSubject">
+        <externalname>Systeemstandaardonderwerp</externalname>
+        <helptext><![CDATA[<p>Systeemstandaard: Onderwerp van de email.</p>]]></helptext>
+      </column>
+      <column name="boolSenderCc">
+        <externalname>Cc naar afzender?</externalname>
+        <helptext><![CDATA[<p>Moet een Cc-kopie van de email naar de afzender gestuurd worden?</p>]]></helptext>
+      </column>
+      <column name="boolSenderBcc">
+        <externalname>Bcc naar afzender?</externalname>
+        <helptext><![CDATA[<p>Moet een Bcc-kopie van de email naar de afzender gestuurd worden?</p>]]></helptext>
+      </column>
+      <column name="boolUseFromWebsite">
+        <externalname>Te gebruiken vanaf website?</externalname>
+        <helptext><![CDATA[<p>Emailsjablonen zijn altijd alleen beschikbaar voor gebruikers die geautoriseerd zijn om online email te versturen. Maar mag dit sjabloon ook gebruikt worden in het website-gedeelte (dus niet alleen vanuit beheergedeelte), bijv. vanuit een ledenlijst?</p>]]></helptext>
+      </column>
+      <column name="boolSysElement">
+        <externalname>Systeemelement?</externalname>
+        <helptext><![CDATA[<p>Is dit record een systeemelement? Zo ja, dan kan het niet via de webinterface verwijderd worden.</p>]]></helptext>
+      </column>
+    </columns>
+  </table>
+</dbtable>

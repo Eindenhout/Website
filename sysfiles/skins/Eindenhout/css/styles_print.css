@@ -1,0 +1,36 @@
+/* CSS by Webware Systems, not to be copied or distributed */
+/* http://www.webwaresystems.nl */
+
+/* global print styles */
+body {
+	margin: 0px;
+	padding: 0px;
+	/* real page background separated from other page styles to hide it from the online HTML editor */
+	background-color: #FFFFFF;
+	/* declaring base font type and size for entire page */
+	font : 9pt Arial, Helvetica, sans-serif;
+	color: #cc674b;
+}
+/* default links styles */
+a:link { color : #ea3525;  text-decoration : underline;  }
+a:visited { color : #ea3525;  text-decoration : underline; }
+a:hover { color : #ea3525; text-decoration: none; }
+a:active { color : #ea3525;  text-decoration : none; }
+
+/* page divisions */
+#trHeader {
+	display: none;
+}
+
+/* Styles for the main content area */
+.tdMainContent {
+    width: 100%;
+}
+.divMainContent {
+    border: none;
+}
+
+/* Sidebar content section styles */
+.tdMainLeft, .tdMainRight {
+    display : none;
+}

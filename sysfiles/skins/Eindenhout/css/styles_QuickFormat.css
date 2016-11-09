@@ -1,0 +1,8 @@
+/* Kleiner & cursief */
+.smallerItalic	{ font-size: smaller; font-style:italic;}
+/* Vet & rood */
+.alert			{ color: #FF0000; font-weight: bold; }
+/* Blauw, Verdana */
+.blueVerdana	{ font-family: Arial, Helvetica, sans-serif; color: #003399; }
+/* Groene rand */
+.boxGreenBorder { border: 1px solid green; padding: 10px;}

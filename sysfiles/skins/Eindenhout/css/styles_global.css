@@ -1,0 +1,153 @@
+/* global page styles */
+body
+{
+	/* real page background separated from other page styles to hide it from the online HTML editor */
+	background-color: #cc674b; /* declaring base font type and size for entire page */
+	font: 80% Arial, Helvetica, sans-serif;
+	color: #FFF;
+}
+
+p
+{
+	padding: 3px 0;
+}
+hr
+{
+	margin: 3px 0;
+}
+
+/* default links styles */
+a:link
+{
+	color: #ea3525;
+	font-weight: bold;
+	text-decoration: underline;
+}
+a:visited
+{
+	color: #ea3525;
+	font-weight: bold;
+	text-decoration: underline;
+}
+a:hover
+{
+	color: #ea3525;
+	font-weight: bold;
+	text-decoration: none;
+}
+a:active
+{
+	color: #ea3525;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+img
+{
+	border: none;
+}
+
+h1 {margin: 13px 0;}
+
+/* Styles for the main content area */
+#tdMainContent h1
+{
+	font-size: 1.4em;
+	color: #ea3525;
+	margin: 10px 0;
+}
+#tdMainContent h2
+{
+	font-size: 1.2em;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	color: #ea3525;
+	border-bottom: 1px dashed #ea3525;
+}
+#tdMainContent h3
+{
+	font-size: 1.1em;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	color: #ea3525;
+	font-weight: bold;
+	font-style: italic;
+}
+#tdMainContent ul, #tdMainContent ol
+{
+	margin-left: 0;
+	padding-left: 30px;
+}
+#tdMainContent a:link
+{
+	color: #ea3525;
+	text-decoration: underline;
+}
+#tdMainContent a:visited
+{
+	color: #ea3525;
+}
+#tdMainContent a:hover
+{
+	color: #ea3525;
+	text-decoration: none;
+}
+
+/* News section styles */
+
+/* Sidebar content section styles */
+.sideBlock
+{
+	border: 1px solid #333333;
+	padding: 5px;
+	margin: 0;
+	color: #FFF;
+	background: #EAEAEA;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.9em;
+}
+.sideBlock h1
+{
+	font-size: 1.6em;
+	margin-top: 5px;
+}
+.sideBlock a:link
+{
+	color: #ea3525;
+	text-decoration: underline;
+}
+.sideBlock a:visited
+{
+	color: #ea3525;
+	text-decoration: underline;
+}
+.sideBlock a:active
+{
+	color: #ea3525;
+	text-decoration: none;
+}
+.sideBlock a:hover
+{
+	color: #ea3525;
+	text-decoration: none;
+}
+
+/* forms styles */
+form
+{
+	margin: 0;
+	padding: 0;
+}
+fieldset
+{
+	margin-bottom: 10px;
+	padding: 5px;
+}
+legend
+{
+	margin-bottom: 2px;
+	color: #FFF;
+}
+.advertentie {
+	padding: 25px;
+}

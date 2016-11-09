@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dbtable>
+  <table name="EmailQueue">
+    <externalname>Postvak uitgaande email</externalname>
+    <columns>
+      <column name="dateInsert">
+        <externalname>Toegevoegd</externalname>
+        <helptext><![CDATA[<p>Datum/tijd waarop dit record is opgevoerd.</p>]]></helptext>
+      </column>
+      <column name="dateUpdate">
+        <externalname>Laatst gewijzigd</externalname>
+        <helptext><![CDATA[<p>Datum/tijd waarop dit record voor het laatst is gewijzigd.</p>]]></helptext>
+      </column>
+      <column name="numInsertAuthorID">
+        <externalname>Toegevoegd door</externalname>
+        <helptext><![CDATA[<p>Gebruiker die dit record heeft toegevoegd.</p>]]></helptext>
+      </column>
+      <column name="numUpdateAuthorID">
+        <externalname>Laatst gewijzigd door</externalname>
+        <helptext><![CDATA[<p>Gebruiker die dit record het laatste heeft gewijzgid.</p>]]></helptext>
+      </column>
+      <column name="txtFrom">
+        <externalname>Van</externalname>
+        <helptext><![CDATA[<p>Afzender van de email.</p>]]></helptext>
+      </column>
+      <column name="memTo">
+        <externalname>Aan</externalname>
+        <helptext><![CDATA[<p>Geadresseerde(n) van de email. Meerdere emailadressen scheiden met een komma.</p>]]></helptext>
+      </column>
+      <column name="txtCc">
+        <externalname>Cc</externalname>
+        <helptext><![CDATA[<p>Emailadres(sen) waar een Cc-kopie van de email heen gestuurd moet worden. Meerdere emailadressen scheiden met een komma.</p>]]></helptext>
+      </column>
+      <column name="txtBcc">
+        <externalname>Bcc</externalname>
+        <helptext><![CDATA[<p>Emailadres(sen) waar een Bcc-kopie van de email heen gestuurd moet worden. Meerdere emailadressen scheiden met een komma.</p>]]></helptext>
+      </column>
+      <column name="txtSubject">
+        <externalname>Onderwerp</externalname>
+        <helptext><![CDATA[<p>Onderwerp van de email.</p>]]></helptext>
+      </column>
+      <column name="memAttachments">
+        <externalname>Bijlage(n)</externalname>
+        <helptext><![CDATA[<p>Bestandspad(en) van eventuele bijlage(n) van de email.</p>]]></helptext>
+      </column>
+      <column name="memMessage">
+        <externalname>Bericht</externalname>
+        <helptext><![CDATA[<p>De berichttekst van de email.</p>]]></helptext>
+      </column>
+      <column name="boolPriority">
+        <externalname>Hoge prioriteit?</externalname>
+        <helptext><![CDATA[<p>Moet de email met hoge prioriteit (met uitroepteken) verstuurd worden?</p>]]></helptext>
+      </column>
+      <column name="boolReadReceipt">
+        <externalname>Leesbevestiging?</externalname>
+        <helptext><![CDATA[<p>Moet de email met verzoek om leesbevestiging verstuurd worden?</p><strong>Let op:</strong><ol><li>Sommige mailprogramma's, waaronder Outlook en Outlook Express, bieden de mogelijkheid om leesbevestigingen voor ontvangen emailberichten helemaal uit te schakelen. In dergelijke gevallen heeft het aankruisen van deze optie geen effect; er zal door de betreffende ontvanger dan nooit een leesbevestiging teruggestuurd worden.</li><li>Zelfs als de ontvanger aan het verzoek om ontvangstbevesting tegemoet komt, betekent dat nog niet dat hij/zij de email ook daadwerkelijk gelezen heeft. Het betekent alleen dat de email op het scherm van de ontvanger gestaan heeft.</li></ol>]]></helptext>
+      </column>
+      <column name="numUserID">
+        <externalname>Berichteigenaar</externalname>
+        <helptext><![CDATA[<p>Lid/relatie die het emailbericht heeft aangemaakt/verstuurd.</p>]]></helptext>
+      </column>
+      <column name="boolSendError">
+        <externalname>Fout?</externalname>
+        <helptext><![CDATA[<p>Heeft een poging om het emailbericht te versturen geresulteerd in een fout?</p>]]></helptext>
+      </column>
+      <column name="memSendError">
+        <externalname>Foutboodschap</externalname>
+        <helptext><![CDATA[<p>De tekst van de fout die is opgetreden bij een poging om het emailbericht te versturen.</p>]]></helptext>
+      </column>
+    </columns>
+  </table>
+</dbtable>

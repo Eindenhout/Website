@@ -1,0 +1,17 @@
+﻿div.divNews2 {}
+div.divNews2 h1 
+{	
+	display: none;
+}
+div.divNews2 p {color: #f0c12b !important;}
+
+div.bubbleLatestNews
+{
+	font-family: Arial, sans-serif !important;
+	font-size: 12px !important;
+	text-align: left !important;
+	color: Black !important;
+}
+a.txtReadMore {
+	display: none;
+}

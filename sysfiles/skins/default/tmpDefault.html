@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html class="no-js">
+<head>
+	<!-- Skin based on Foundation 5 framework -->
+    <meta charset="utf-8" />
+    <!-- Set the viewport width to device width for mobile -->
+    <meta name="viewport" content="width=device-width" />
+
+    <title>{{SiteName}} - {{PageTitle}}</title>
+    <!--
+      Powered by: 	Club Webware
+      Web:	      	http://www.clubwebware.nl
+      E-mail:	    info@clubwebware.nl
+    -->
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="-1">
+    <meta http-equiv="imagetoolbar" content="no">
+    <meta name="keywords" content="{{PageKeywords}}">
+    <meta name="description" content="{{PageAbstract}}">
+
+    <!-- Included CSS Files (Compressed) -->
+    <link rel="stylesheet" href="{{SiteRoot}}{{SiteTemplateDir}}css/normalize.css">
+    <link rel="stylesheet" href="{{SiteRoot}}{{SiteTemplateDir}}css/foundation.min.css">
+    <link rel="stylesheet" href="{{SiteRoot}}{{SiteTemplateDir}}css/style.css">
+    <link rel="stylesheet" href="{{SiteRoot}}{{SiteTemplateDir}}css/style_print.css" media="print" />
+
+    <script src="{{SiteRoot}}{{SiteTemplateDir}}js/vendor/modernizr.js"></script>
+
+    <link rel="stylesheet" href="{{SiteRoot}}{{SiteTemplateDir}}css/ligature.css">
+
+    <!-- Google fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Playfair+Display:400italic' rel='stylesheet' type='text/css' />
+</head>
+
+<body>
+    <!-- ######################## Header ######################## -->
+    <header>
+        <div class="large-12 columns">
+            <div class="row">
+                <a href="https://www.clubwebware.nl/"><img src="{{SiteRoot}}{{SiteTemplateDir}}img/logo-clubwebware-transparant_small.png" /></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- ######################## Main Menu ######################## -->
+    <nav>
+        <div class="large-12 columns header_nav">
+            <div class="row">
+                <nav class="top-bar" data-topbar role="navigation">
+                    <ul class="title-area">
+                        <!-- Title Area -->
+                        <li class="name"></li>
+                        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+                        <li class="toggle-topbar menu-icon"><a href=""><span>Menu</span></a></li>
+                    </ul>
+                    <section class="top-bar-section">
+                        {{DynamicMenusList}}
+                    </section>
+                </nav>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ######################## SubTemplate ######################## -->
+    {{PageContent}}
+
+    <!-- ######################## Footer ######################## -->
+    <footer>
+        <div class="large-12 columns footer">
+            <div class="row">
+                <a href="https://twitter.com/" target="_blank" class="lsf-icon" style="font-size:16px; margin-right:15px" title="twitter">Twitter</a>
+                <a href="https://www.facebook.com/" target="_blank" class="lsf-icon" style="font-size:16px; margin-right:15px" title="facebook">Facebook</a>
+                <a href="https://nl.pinterest.com/" target="_blank" class="lsf-icon" style="font-size:16px; margin-right:15px" title="pinterest">Pinterest</a>
+                <a href="https://www.instagram.com/" target="_blank" class="lsf-icon" style="font-size:16px" title="instagram">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ######################## Scripts ######################## -->
+    <script src="{{SiteRoot}}{{SiteTemplateDir}}js/foundation.min.js" type="text/javascript"></script>
+    <script src="{{SiteRoot}}{{SiteTemplateDir}}js/foundation/foundation.topbar.js"></script>
+    <script src="{{SiteRoot}}{{SiteTemplateDir}}js/start.js" type="text/javascript"></script>
+    <script>
+        $(document).foundation();
+    </script>
+</body>
+</html>

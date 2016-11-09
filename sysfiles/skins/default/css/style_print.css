@@ -1,0 +1,9 @@
+﻿/* Print styles: prevent most things from appearing on printed version
+   ========================================================================== */
+nav, header, footer, .section_breadcrumbs {
+    display: none;
+}
+
+a[href]:after, a[href]:visited:after, a[mailto]:after, a[mailto]:visited:after {
+    content: normal;
+}

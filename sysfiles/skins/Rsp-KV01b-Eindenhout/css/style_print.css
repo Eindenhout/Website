@@ -1,0 +1,33 @@
+    #header-wrapper{
+        display: none;
+    }
+    #nav-wrapper{
+        display: none;
+    }
+    #total-wrapper{
+        border:none;
+    }
+    #page-wrapper{
+        border:none;
+    }
+    #main-wrapper{
+        border:none;
+    }
+    #main{
+        border:none;
+    }
+    #footer-wrapper{
+        display: none;
+    }
+    #footer-bar-wrapper{
+        display: none;
+    }
+    #divBreadcrumbs{
+        display: none;
+    }
+    #sidebar{
+        display: none;
+    }
+    .readmore{
+        display: none;
+    }

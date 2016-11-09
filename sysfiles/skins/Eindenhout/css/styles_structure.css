@@ -1,0 +1,123 @@
+/* CSS Document */
+*
+{
+	padding: 0;
+	margin: 0;
+}
+html, body
+{
+	height: 100%;
+}
+body
+{
+	/* page background; separated from other page styles to hide it from the online HTML editor */
+	background: #cc674b;
+}
+#tblContainer
+{
+	width: 100%;
+	height: 100%;
+}
+* html #tblContainer
+{
+	height: 100%;
+}
+
+/* table rows */
+#trDummyIE8
+{
+	height: 1px;
+}
+#trHeader
+{
+	vertical-align: top;
+	height: 113px;
+}
+#trNavigation
+{
+	vertical-align: top;
+}
+#trMain
+{
+	vertical-align: top;
+}
+#trFooter
+{
+	vertical-align: top;
+	height: 10px;
+}
+
+#tblHeader
+{
+	vertical-align: top;
+	margin-top: 13px;
+}
+
+#divNavigation
+{
+	margin-top: 9px;
+	text-align: center;
+}
+
+/* main content row */
+.tdMainLeft
+{
+	margin-left: -17px;
+}
+.tdMainContent
+{
+	vertical-align: top;
+	overflow: auto;
+	margin-right: -13px;
+	padding-right: 34px;
+}
+#tdMainRight
+{
+	vertical-align: top;
+	width: 180px;
+}
+
+#divMainContent
+{
+	padding: 5px 10px;
+	margin: 5px 0;
+}
+#divBreadCrumbs
+{
+	margin-bottom: 15px;
+}
+
+.sideBar
+{
+	padding: 5px;
+}
+.sidebarLeft
+{
+	width: 180px;
+}
+.sidebarRight
+{
+	width: 200px;
+}
+.A1, .A2, .A3, .B1, .B2, .B3, .C1, .C2, .C3, .D1, .D2, .D3 {
+	position:relative;
+	z-index:1;
+	left:0px;
+	top:0px;
+}
+
+.knoppenAfb {
+	position:absolute;
+	z-index: -1;
+	left:0px;
+	top:0px;
+}
+.content {
+	background: #f1c22c;
+	vertical-align: top;
+	text-align: left;
+	padding: 20px;
+}
+#divMainNav .sub-level {
+	z-index: 99!important;	
+}

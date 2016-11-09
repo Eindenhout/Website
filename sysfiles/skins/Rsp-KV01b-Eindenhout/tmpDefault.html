@@ -1,0 +1,128 @@
+<!doctype html>
+<html class="no-js" >
+  <head>
+	<meta charset="UTF-8">
+    <title>{{SiteName}} - {{PageTitle}}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="keywords" content="{{PageKeywords}}">
+	<meta name="description" content="{{PageAbstract}}">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{SiteRoot}}{{SiteTemplateDir}}css/foundation.css" />
+    <link rel="stylesheet" href="{{SiteRoot}}{{SiteTemplateDir}}css/style.css" />
+    <script src="{{SiteRoot}}{{SiteTemplateDir}}js/vendor/modernizr.js"></script>
+
+    <!-- import jQuery templating engine (https://github.com/codepb/jquery-template) -->
+    <script src="/wsAdmin/js/jquery.loadTemplate-1.4.3.min.js" type="text/javascript" charset="utf-8"></script>
+    <!-- jQuery scripts -->
+      <script src="{{SiteRoot}}{{SiteTemplateDir}}js/KV01-scripts.js" type="text/javascript"></script>
+	
+  </head>
+  <body>
+    
+      <div id="header-wrapper">
+	<div id="header">
+	    <div class="row" >
+		<div class="large-4 medium-12 columns">
+		    <div class="row">
+			<div class="large-12 medium-6 columns">
+			    <div id="logo-wrapper">
+				<a href="{{SiteRoot}}" title="Home" id="paginaTop"><img src="{{SiteRoot}}{{SiteTemplateDir}}img/logo.png" alt="Logo"></a>
+			    </div>
+      </div>
+       <div class="large-12 medium-6 columns">
+	  <a href="{{SiteRoot}}default.aspx?pageid=73" class="small round button">Lid worden?</a>         
+	  <a href="{{SiteRoot}}default.aspx?pageid=4" class="small round button">Contact</a>   
+      </div>
+      </div>        
+      </div>     
+
+      <div class="large-8 medium-8 columns show-for-large-up">
+	  <!-- 		    1e "polaroidfoto" -->
+	  <div class="photo-wrapper">
+	      {{cb:name=HeaderPolaroid1}}
+	  </div>
+      <!--         2e "polaroidfoto" -->
+      <div class="photo-wrapper">
+	  {{cb:name=HeaderPolaroid2}}
+      </div>
+      <!--         3e "polaroidfoto" -->
+      <div class="photo-wrapper">
+	  {{cb:name=HeaderPolaroid3}}
+      </div>   
+      </div>
+
+      </div>	
+      </div>
+      </div>
+    
+	<div id="nav-wrapper">	
+		<div class="row">
+		  <div class="large-12 columns">
+				<nav data-topbar="" role="navigation" class="top-bar">
+				  <ul class="title-area">
+					<!-- Title Area -->
+					<li class="name">
+
+					</li>
+					<!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+					<li class="toggle-topbar menu-icon"><a href=""><span>Menu</span></a></li>
+				  </ul>
+				  <section class="top-bar-section">
+					  <div id="NavULWrapperDivID" class="NavULWrapperDivClass">
+							{{DynamicMenusList}}
+						</div>
+				  </section>
+				</nav>
+		  </div>  		
+		</div>
+	</div>
+
+    <div id="main-wrapper">
+				{{PageContent}}
+	</div>
+	<div id="footer-wrapper">
+		<div class="row" id="footer">
+		  <div class="large-4 medium-4 columns footer-block">
+		      <h3>{{cb:name=Footerblok1Titel-Rsp-KV01}}</h3>
+		      <div class="block-inner">
+			  {{cb:name=Footerblok1-Rsp-KV01}}
+		      </div>
+				<!-- template for jQuery templating engine -->
+				<script type="text/html" id="eventTemplate">
+				    <div class="item"><p class="date"><span class="eventDate" data-content="EventDateStart"></span> <span class="eventDate" data-content="EventTimeStart"></span></p><a data-template-bind='{"attribute": "href", "value": "EventDetailsURL"}' title="Meer informatie" class="title"><span data-content="EventName"></span></a></div>			
+				</script>
+		  </div>     
+		  <div class="large-4 medium-4 columns footer-block">
+		      <h3>{{cb:name=Footerblok2Titel-Rsp-KV01}}</h3>
+		      <div class="block-inner">			
+			  {{cb:name=Footerblok2-Rsp-KV01}}
+		      </div>
+			  
+		  </div>
+		  <div class="large-4 medium-4 columns footer-block">
+		      <h3>{{cb:name=Footerblok3Titel-Rsp-KV01}}</h3>
+			 <div class="block-inner">
+			     {{cb:name=Footerblok3-Rsp-KV01}}
+			 </div>
+		  </div> 
+		</div>	
+	</div>
+	<div id="footer-bar-wrapper">
+		<div class="row" id="footer-bar">
+		  <div class="large-8 medium-8 columns">
+		      {{cb:name=Copyright-Rsp-KV01}}
+<!-- 			<p>&copy; 2014   Tennisclub Webdemo, Plaatsnaam <span><i>Aan de informatie op deze website kunnen geen rechten worden ontleend</i></span></p> -->
+		  </div>     
+		  <div class="large-4 medium-4 columns credits">
+			 <p>Powered by <a href="http://www.clubwebware.nl" title="Club Webware - Online verenigingsadministratie: leden, contributie, boekhouding en meer" target="_blank">Club Webware</a></p>
+		  </div>
+		</div>		
+	</div>
+  
+
+    <script src="{{SiteRoot}}{{SiteTemplateDir}}js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>

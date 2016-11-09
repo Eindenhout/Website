@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<skin>
+    <configvars>
+        <var name="NavType">UL</var>
+        <var name="NavULWrapperDivID">divMainNav</var>
+        <var name="NavULMainID" />
+        <var name="NavULMainClass">top-level</var>
+        <var name="NavULSubClass" />
+        <var name="NavULSubClassUL">sub-level</var>
+        <var name="NavSubMenuIndicator">
+            <![CDATA[&nbsp;<strong>&raquo;</strong>]]>
+        </var>
+        <var name="SiteTemplateStyles">css/styles_global.css</var>
+    </configvars>
+</skin>

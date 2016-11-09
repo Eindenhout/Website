@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<skin>
+  <configvars>
+    <var name="NavType">UL</var>
+    <var name="NavULWrapperDivID" />
+    <var name="NavULWrapperDivClass" />
+    <var name="NavULMainID" />
+    <var name="NavULMainClass">top-level</var>
+    <var name="NavULSubClass">has-dropdown</var>
+    <var name="NavULSubClassUL">dropdown</var>
+    <var name="NavActivePageClass">active</var>
+    <var name="NavULSubMenuLinkClass" />
+    <var name="NavSubMenuIndicator" />
+    <var name="SiteTemplateStyles">styles/style.css</var>
+	<var name="TablelessForms">True</var>
+	<var name="ResponsiveGrids">True</var>
+	<var name="FacebookLikeWidgetLayout">button</var>	
+  </configvars>
+</skin>

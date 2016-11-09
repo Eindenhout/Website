@@ -1,0 +1,146 @@
+/* Default template UL based navigation styles */
+/*      based on: http://www.devinrolsen.com/pure-css-vertical-menu/ */
+
+/*------------------------------------*\
+    menu level independent
+\*------------------------------------*/
+
+#divMainNav
+{
+    font-size: 12px;
+	background: images/navbg.jpg repeat-x;
+}
+#divMainNav ul
+{
+    margin: 0px;
+    padding: 0px;
+}
+#divMainNav li
+{
+    list-style: none;
+}
+#divMainNav a
+{
+    color: #c7c7c7;
+    cursor: pointer;
+    display: block;
+    padding: 9px 5px 9px 10px;
+    text-decoration: none;
+    width: 100%;
+	text-align: left;
+}
+
+#divMainNav a:hover
+{
+    text-decoration: none;
+	color: #fff;
+}
+
+#divMainNav li:hover
+{
+    position: relative;
+}
+
+/*------------------------------------*\
+	main menu level (= vertical)
+\*------------------------------------*/
+
+#divMainNav ul.top-level
+{
+    background: none;
+	font-weight: bold;
+}
+#divMainNav ul.top-level li
+{
+    float: left; /*margin-right: 10px;*/
+    position: relative;
+}
+
+#divMainNav ul.top-level a:link, #divMainNav ul.top-level a:visited, #divMainNav ul.top-level a:active
+{
+    background: none;
+}
+#divMainNav ul.top-level a:hover
+{
+    background: #575757;
+}
+
+/*------------------------------------*\
+	sub menu levels
+\*------------------------------------*/
+
+.sub-level
+{
+    display: none; 
+	font-weight: normal;	
+}
+
+#divMainNav li:hover .sub-level
+{
+    width: 155px; /* for border: width correction related to padding on A elements */
+    background: #fff;
+    border: #000 solid;
+    border-width: 1px;
+    display: block;
+    position: absolute;
+}
+ #divMainNav .top-level li:hover .sub-level
+{
+    left: 0px;
+    top: 20px;
+}
+#divMainNav .sub-level li:hover .sub-level
+{
+    left: 135px;
+    top: 5px;
+}
+#divMainNav ul.sub-level li
+{
+    border: none;
+    float: left;
+    width: 140px;
+}
+#divMainNav .sub-level
+{
+    background: #cc674b;
+}
+#divMainNav .sub-level .sub-level
+{
+    background: #fff;
+	color: #000;
+}
+
+/*------------------------------------*\
+	MULTI-LEVEL RESET HELPERS
+\*------------------------------------*/
+
+/* 2nd sub level: main - sub - sub */
+#divMainNav li:hover .sub-level .sub-level
+{
+    display: none;
+}
+#divMainNav .sub-level li:hover .sub-level
+{
+    display: block;
+}
+
+/* 3rd sub level: main - sub - sub - sub */
+#divMainNav li:hover .sub-level .sub-level .sub-level
+{
+    display: none;
+}
+#divMainNav .sub-level .sub-level li:hover .sub-level
+{
+    display: block;
+}
+
+/* 4th sub level: main - sub - sub - sub - sub */
+#divMainNav li:hover .sub-level .sub-level .sub-level .sub-level
+{
+    display: none;
+}
+#divMainNav .sub-level .sub-level .sub-level li:hover .sub-level
+{
+    display: block;
+}
+

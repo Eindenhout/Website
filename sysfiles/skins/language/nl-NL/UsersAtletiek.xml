@@ -1,0 +1,1314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dbtable>
+  <table name="UsersAtletiek">
+    <externalname>Atletiek-bondsleden</externalname>
+    <columns>
+      <column name="dateInsert">
+        <externalname>Toegevoegd</externalname>
+        <helptext><![CDATA[<p>Datum/tijd waarop dit record is opgevoerd.</p>]]></helptext>
+      </column>
+      <column name="dateUpdate">
+        <externalname>Laatst gewijzigd</externalname>
+        <helptext><![CDATA[<p>Datum/tijd waarop dit record voor het laatst is gewijzigd.</p>]]></helptext>
+      </column>
+      <column name="numInsertAuthorID">
+        <externalname>Toegevoegd door</externalname>
+        <helptext><![CDATA[<p>Gebruiker die dit record heeft toegevoegd.</p>]]></helptext>
+      </column>
+      <column name="numUpdateAuthorID">
+        <externalname>Laatst gewijzigd door</externalname>
+        <helptext><![CDATA[<p>Gebruiker die dit record het laatste heeft gewijzgid.</p>]]></helptext>
+      </column>
+      <column name="numCatID">
+        <externalname>Behoort tot de groep(en)</externalname>
+      </column>
+      <column name="numRelID">
+        <externalname>Bijbehorende organisatie</externalname>
+      </column>
+      <column name="txtUserName">
+        <externalname>Loginnaam</externalname>
+      </column>
+      <column name="txtPassword">
+        <externalname>Gewenst wachtwoord</externalname>
+      </column>
+      <column name="txtSalt">
+        <externalname>Wachtwoordsleutel</externalname>
+      </column>
+      <column name="txtInitials">
+        <externalname>Voorletters</externalname>
+      </column>
+      <column name="txtFirstName">
+        <externalname>Roepnaam</externalname>
+      </column>
+      <column name="txtFirstNames">
+        <externalname>Voorna(a)m(en)</externalname>
+      </column>
+      <column name="txtMiddleName">
+        <externalname>Tussenvoegsel</externalname>
+      </column>
+      <column name="txtLastName">
+        <externalname>(Achter)naam</externalname>
+      </column>
+      <column name="txtMaidenMiddleName">
+        <externalname>Tussenv. meisjesnaam</externalname>
+      </column>
+      <column name="txtMaidenLastName">
+        <externalname>Meisjesnaam</externalname>
+      </column>
+      <column name="txtGender">
+        <externalname>Geslacht</externalname>
+      </column>
+      <column name="dateBirth">
+        <externalname>Geboortedatum</externalname>
+      </column>
+      <column name="txtBirthCity">
+        <externalname>Geboorteplaats</externalname>
+      </column>
+      <column name="txtNationality">
+        <externalname>Nationaliteit</externalname>
+      </column>
+      <column name="txtAddress">
+        <externalname>Adres</externalname>
+      </column>
+      <column name="txtAddressStreet">
+        <externalname>Adres - Straat</externalname>
+      </column>
+      <column name="txtAddressNr">
+        <externalname>Adres - Huisnr.</externalname>
+      </column>
+      <column name="txtAddressNrExtra">
+        <externalname>Adres - Huisnr.toev.</externalname>
+      </column>
+      <column name="txtZipCode">
+        <externalname>Adres - Postcode</externalname>
+      </column>
+      <column name="txtCity">
+        <externalname>Adres - Plaats</externalname>
+      </column>
+      <column name="txtCountry">
+        <externalname>Adres - Land</externalname>
+      </column>
+      <column name="txtCountryCode">
+        <externalname>Adres - Landcode</externalname>
+      </column>
+      <column name="txtState">
+        <externalname>Adres - Provincie</externalname>
+      </column>
+      <column name="boolMailIdentical">
+        <externalname>Postadres gelijk aan woon-/bezoekadres?</externalname>
+      </column>
+      <column name="boolMailParents">
+        <externalname>Factureren aan 'De ouders/verzorgers van ...'?</externalname>
+      </column>
+      <column name="txtMailAddress">
+        <externalname>Postadres - Adres</externalname>
+      </column>
+      <column name="txtMailAddressStreet">
+        <externalname>Postadres - Straat</externalname>
+      </column>
+      <column name="txtMailAddressNr">
+        <externalname>Postadres - Huisnr.</externalname>
+      </column>
+      <column name="txtMailAddressNrExtra">
+        <externalname>Postadres - Huisnr.toev.</externalname>
+      </column>
+      <column name="txtMailZipCode">
+        <externalname>Postadres - Postcode</externalname>
+      </column>
+      <column name="txtMailCity">
+        <externalname>Postadres - Plaats</externalname>
+      </column>
+      <column name="txtMailCountry">
+        <externalname>Postadres - Land</externalname>
+      </column>
+      <column name="txtMailCountryCode">
+        <externalname>Postadres - Landcode</externalname>
+      </column>
+      <column name="txtMailState">
+        <externalname>Postadres - Provincie</externalname>
+      </column>
+      <column name="txtEmail">
+        <externalname>Email</externalname>
+      </column>
+      <column name="txtTelephone">
+        <externalname>Telefoon</externalname>
+      </column>
+      <column name="txtTelephoneWork">
+        <externalname>Tel. werk</externalname>
+      </column>
+      <column name="txtMobile">
+        <externalname>Tel. mobiel</externalname>
+      </column>
+      <column name="txtFax">
+        <externalname>Fax</externalname>
+      </column>
+      <column name="numDeliveryCatID">
+        <externalname>Bezorgcode</externalname>
+      </column>
+      <column name="memExtras">
+        <externalname>Opmerkingen</externalname>
+      </column>
+      <column name="txtImageFile">
+        <externalname>Foto (min. 300x400 pix)</externalname>
+      </column>
+      <column name="numVisits">
+        <externalname>Aantal bezoeken</externalname>
+      </column>
+      <column name="dateLastLogin">
+        <externalname>Laatste login</externalname>
+      </column>
+      <column name="dateStart">
+        <externalname>Actief m.i.v.</externalname>
+      </column>
+      <column name="dateEnd">
+        <externalname>Actief t/m</externalname>
+      </column>
+      <column name="numUserType">
+        <externalname>Type</externalname>
+      </column>
+      <column name="txtAttn">
+        <externalname>T.a.v.</externalname>
+      </column>
+      <column name="numContactUserID">
+        <externalname>Primaire contactpersoon</externalname>
+      </column>
+      <column name="txtRoleInOrganisation">
+        <externalname>Functie</externalname>
+      </column>
+      <column name="txtURL">
+        <externalname>URL website</externalname>
+      </column>
+      <column name="txtCaptcha">
+        <externalname>Beveiligingscode</externalname>
+      </column>
+      <column name="txtFullNameLastNameFirst">
+        <externalname>Naam volledig (roepnaam), achternaam eerst</externalname>
+      </column>
+      <column name="txtFullNameLastNameLast">
+        <externalname>Naam volledig (roepnaam), achternaam laatst</externalname>
+      </column>
+      <column name="txtFormalNameLastNameFirst">
+        <externalname>Naam volledig (formeel), achternaam eerst</externalname>
+      </column>
+      <column name="txtFormalNameLastNameLast">
+        <externalname>Naam volledig (formeel), achternaam laatst</externalname>
+      </column>
+      <column name="txtFullStreetAddress">
+        <externalname>Adres - Volledig straatadres</externalname>
+      </column>
+      <column name="txtFullStreetAddressMail">
+        <externalname>Postadres - Volledig straatadres</externalname>
+      </column>
+      <column name="txtTitle">
+        <externalname>Titel</externalname>
+      </column>
+      <column name="boolMailInvoiceIdentical">
+        <externalname>Factuuradres gelijk aan postadres?</externalname>
+      </column>
+      <column name="txtMailInvoiceAddress">
+        <externalname>Factuuradres - Adres</externalname>
+      </column>
+      <column name="txtMailInvoiceAddressStreet">
+        <externalname>Factuuradres - Straat</externalname>
+      </column>
+      <column name="txtMailInvoiceAddressNr">
+        <externalname>Factuuradres - Huisnr.</externalname>
+      </column>
+      <column name="txtMailInvoiceAddressNrExtra">
+        <externalname>Factuuradres - Huisnr.toev.</externalname>
+      </column>
+      <column name="txtMailInvoiceZipCode">
+        <externalname>Factuuradres - Postcode</externalname>
+      </column>
+      <column name="txtMailInvoiceCity">
+        <externalname>Factuuradres - Plaats</externalname>
+      </column>
+      <column name="txtMailInvoiceCountry">
+        <externalname>Factuuradres - Land</externalname>
+      </column>
+      <column name="txtMailInvoiceCountryCode">
+        <externalname>Factuuradres - Landcode</externalname>
+      </column>
+      <column name="txtMailInvoiceState">
+        <externalname>Factuuradres - Provincie</externalname>
+      </column>
+      <column name="txtMailInvoiceEmail">
+        <externalname>Email voor facturatie</externalname>
+      </column>
+      <column name="txtMailInvoiceAttn">
+        <externalname>Facturen t.a.v.</externalname>
+      </column>
+      <column name="txtFullStreetAddressMailInvoice">
+        <externalname>Factuuradres - Volledig straatadres</externalname>
+      </column>
+      <column name="txtProfession">
+        <externalname>Beroep</externalname>
+      </column>
+      <column name="txtMemberID">
+        <externalname>Oud lidnr.</externalname>
+      </column>
+      <column name="txtExtraID">
+        <externalname>Extra ID</externalname>
+      </column>
+      <column name="numOccupantID">
+        <externalname>Bijbehorende hoofdbewoner</externalname>
+      </column>
+      <column name="numFinanceID">
+        <externalname>Betalingen worden gedaan door</externalname>
+      </column>
+      <column name="txtBankAccount">
+        <externalname>Bankrekening</externalname>
+      </column>
+      <column name="txtBankAccountOwner">
+        <externalname>Naam rekeninghouder</externalname>
+      </column>
+      <column name="txtBankAccountOwnerCity">
+        <externalname>Plaats rekeninghouder</externalname>
+      </column>
+      <column name="boolIncasso">
+        <externalname>Incasso?</externalname>
+      </column>
+      <column name="boolPrivacy">
+        <externalname>Adres- en contactgegevens op website?</externalname>
+      </column>
+      <column name="boolIVA">
+        <externalname>IVA-cursus gevolgd?</externalname>
+      </column>
+      <column name="boolEHBO">
+        <externalname>EHBO-diploma?</externalname>
+      </column>
+      <column name="boolBHV">
+        <externalname>BHV-diploma?</externalname>
+      </column>
+      <column name="dateBondWedstrijdlicentie">
+        <externalname>BondWedstrijdlicentie</externalname>
+      </column>
+      <column name="numImportRef">
+        <externalname>numImportRef</externalname>
+      </column>
+      <column name="numImportRefOccupant">
+        <externalname>numImportRefOccupant</externalname>
+      </column>
+      <column name="numImportRefFinance">
+        <externalname>numImportRefFinance</externalname>
+      </column>
+      <column name="txtOpgaveSectie">
+        <externalname>OpgaveSectie</externalname>
+      </column>
+      <column name="txtLocatie">
+        <externalname>Locatie</externalname>
+      </column>
+      <column name="dateLastLogout">
+        <externalname>Laatste logout</externalname>
+      </column>
+      <column name="txtUserPhoto">
+        <externalname>(Pas)foto (min. 300x400 pix)</externalname>
+      </column>
+      <column name="txtUserPhotoThumb">
+        <externalname>(Pas)foto - klein</externalname>
+      </column>
+      <column name="dateDeath">
+        <externalname>Datum overlijden</externalname>
+      </column>
+      <column name="txtImageFilePath">
+        <externalname>Fotobestandsnaam</externalname>
+      </column>
+      <column name="boolNewsletters">
+        <externalname>Digitale nieuwsbrieven?</externalname>
+      </column>
+      <column name="txtNewsletterGUIDOptIn">
+        <externalname>Opt-in GUID</externalname>
+      </column>
+      <column name="dateNewsletterGUIDOptIn">
+        <externalname>Opt-in bevestiging</externalname>
+      </column>
+      <column name="txtNewsletterGUIDOptOut">
+        <externalname>Opt-out GUID</externalname>
+      </column>
+      <column name="dateNewsletterGUIDOptOut">
+        <externalname>Opt-out bevestiging</externalname>
+      </column>
+      <column name="txtBankIBAN">
+        <externalname>IBAN (zonder spaties!)</externalname>
+      </column>
+      <column name="txtBankBIC">
+        <externalname>BIC</externalname>
+      </column>
+      <column name="numPaymentFrequency">
+        <externalname>Betaalperiode</externalname>
+      </column>
+      <column name="boolFederation05">
+        <externalname>KNAU - Bondslid?</externalname>
+      </column>
+      <column name="txtFederationID05">
+        <externalname>AU - Bondsnr.</externalname>
+      </column>
+      <column name="dateFederationStart05">
+        <externalname>AU - Verzenddatum aanmelding</externalname>
+      </column>
+      <column name="dateFederationEnd05">
+        <externalname>AU - Verzenddatum afmelding</externalname>
+      </column>
+      <column name="dateFederationSent05">
+        <externalname>AU - Verzenddatum laatste mutatie</externalname>
+      </column>
+      <column name="txtFederationStatus05">
+        <externalname>AU - Comm.status</externalname>
+      </column>
+      <column name="txtFederationPhase05">
+        <externalname>AU - Mutatiesoort</externalname>
+      </column>
+      <column name="numFederationMatchStatus05">
+        <externalname>KNAU - Stadium bondscommunicatie</externalname>
+      </column>
+      <column name="txtForumAvatar">
+        <externalname>Forumavatar</externalname>
+      </column>
+      <column name="memForumSignature">
+        <externalname>Forumhandtekening</externalname>
+      </column>
+      <column name="boolForumLastReplyFirst">
+        <externalname>Laatste forumreactie bovenaan?</externalname>
+      </column>
+      <column name="numFederationMemberType05">
+        <externalname>AU - Soort bondslid</externalname>
+      </column>
+      <column name="dateFederationComparison05">
+        <externalname>AU - Laatste bondsvergelijking</externalname>
+      </column>
+      <column name="dateFederationMemberStart05">
+        <externalname>AU - Bondslid m.i.v.</externalname>
+      </column>
+      <column name="dateFederationMemberEnd05">
+        <externalname>AU - Bondslid t/m</externalname>
+      </column>
+      <column name="txtFederationEndReason05">
+        <externalname>KNAU - Reden afmelding</externalname>
+      </column>
+      <column name="numSingle">
+        <externalname>Speelsterkte enkel</externalname>
+      </column>
+      <column name="numSingleRating">
+        <externalname>Enkel rating (onafgerond)</externalname>
+      </column>
+      <column name="numSingleOld">
+        <externalname>Enkel oud</externalname>
+      </column>
+      <column name="numDouble">
+        <externalname>Speelsterkte dubbel</externalname>
+      </column>
+      <column name="numDoubleRating">
+        <externalname>Dubbel rating (onafgerond)</externalname>
+      </column>
+      <column name="numDoubleOld">
+        <externalname>Dubbel oud</externalname>
+      </column>
+      <column name="txtPhotoNr">
+        <externalname>Fotonr.</externalname>
+      </column>
+      <column name="txtOtherClub">
+        <externalname>Ander clubnr.</externalname>
+      </column>
+      <column name="txtFederationID04">
+        <externalname>KNLTB - Bondsnr.</externalname>
+      </column>
+      <column name="dateFederationStart04">
+        <externalname>KNLTB - Verzenddatum aanmelding</externalname>
+      </column>
+      <column name="dateFederationEnd04">
+        <externalname>KNLTB - Verzenddatum afmelding</externalname>
+      </column>
+      <column name="dateFederationSent04">
+        <externalname>KNLTB - Verzenddatum laatste mutatie</externalname>
+      </column>
+      <column name="txtFederationStatus04">
+        <externalname>KNLTB - Comm.status</externalname>
+      </column>
+      <column name="txtFederationPhase04">
+        <externalname>KNLTB - Mutatiesoort</externalname>
+      </column>
+      <column name="dateFederationMemberStart04">
+        <externalname>KNLTB - Bondslid m.i.v.</externalname>
+      </column>
+      <column name="dateFederationMemberEnd04">
+        <externalname>KNLTB - Bondslid t/m</externalname>
+      </column>
+      <column name="txtAtletiekEndReason">
+        <externalname>AU - Reden afmelding</externalname>
+      </column>
+      <column name="boolFederation">
+        <externalname>boolFederation</externalname>
+      </column>
+      <column name="numFederationMatchStatus">
+        <externalname>numFederationMatchStatus</externalname>
+      </column>
+      <column name="txtFederationID06">
+        <externalname>KNRB - Bondsnr.</externalname>
+      </column>
+      <column name="dateFederationMemberStart06">
+        <externalname>KNRB - Bondslid m.i.v.</externalname>
+      </column>
+      <column name="dateFederationMemberEnd06">
+        <externalname>KNRB - Bondslid t/m</externalname>
+      </column>
+      <column name="dateFederationStart06">
+        <externalname>KNRB - Verzenddatum aanmelding</externalname>
+      </column>
+      <column name="dateFederationEnd06">
+        <externalname>KNRB - Verzenddatum afmelding</externalname>
+      </column>
+      <column name="dateFederationSent06">
+        <externalname>KNRB - Verzenddatum laatste mutatie</externalname>
+      </column>
+      <column name="txtFederationStatus06">
+        <externalname>KNRB - Comm.status</externalname>
+      </column>
+      <column name="txtFederationPhase06">
+        <externalname>KNRB - Mutatiesoort</externalname>
+      </column>
+      <column name="numFederationMemberType06">
+        <externalname>AU - Soort bondslid</externalname>
+      </column>
+      <column name="dateFederationComparison06">
+        <externalname>KNRB - Laatste bondsvergelijking</externalname>
+      </column>
+      <column name="boolAEDcertificaat">
+        <externalname>AED-certificaat?</externalname>
+      </column>
+      <column name="txtDavilex">
+        <externalname>Davilex</externalname>
+      </column>
+      <column name="txtFederationID03">
+        <externalname>AU - Bondsnr.</externalname>
+      </column>
+      <column name="dateFederationStart03">
+        <externalname>AU - Verzenddatum aanmelding</externalname>
+      </column>
+      <column name="dateFederationEnd03">
+        <externalname>AU - Verzenddatum afmelding</externalname>
+      </column>
+      <column name="dateFederationSent03">
+        <externalname>AU - Verzenddatum laatste mutatie</externalname>
+      </column>
+      <column name="txtFederationStatus03">
+        <externalname>AU - Comm.status</externalname>
+      </column>
+      <column name="txtFederationPhase03">
+        <externalname>AU - Mutatiesoort</externalname>
+      </column>
+      <column name="dateFederationMemberStart03">
+        <externalname>AU - Bondslid m.i.v.</externalname>
+      </column>
+      <column name="dateFederationMemberEnd03">
+        <externalname>AU - Bondslid t/m</externalname>
+      </column>
+      <column name="txtFacebook">
+        <externalname>Facebook</externalname>
+      </column>
+      <column name="txtHerkomst">
+        <externalname>Herkomst</externalname>
+      </column>
+      <column name="numFederationMemberType03">
+        <externalname>AU - Soort bondslid</externalname>
+      </column>
+      <column name="dateFederationComparison03">
+        <externalname>AU - Laatste bondsvergelijking</externalname>
+      </column>
+      <column name="boolVActieveVrijwilliger">
+        <externalname>V_Actieve vrijwilliger</externalname>
+      </column>
+      <column name="boolVOproepkrachtkantine">
+        <externalname>V_Oproepkracht kantine</externalname>
+      </column>
+      <column name="boolVOproepkrachtevenementen">
+        <externalname>V_Oproepkracht evenementen</externalname>
+      </column>
+      <column name="boolVHulpbijorganisatieevenement">
+        <externalname>V_Hulp bij organisatie evenement</externalname>
+      </column>
+      <column name="boolVVrijwilligersfunctie">
+        <externalname>V_Vrijwilligersfunctie</externalname>
+      </column>
+      <column name="boolVDaghulpHilversumCityRun">
+        <externalname>V_Daghulp Hilversum City Run</externalname>
+      </column>
+      <column name="txtVInteressegebied">
+        <externalname>V_Interessegebied</externalname>
+      </column>
+      <column name="memVOpmerkingen">
+        <externalname>V_Opmerkingen</externalname>
+      </column>
+      <column name="txtVNaamwieheeftlaatstgewijzigd">
+        <externalname>V_Naam wie heeft laatst gewijzigd?</externalname>
+      </column>
+      <column name="dateVDatumlaatstewijziging">
+        <externalname>V_Datum laatste wijziging</externalname>
+      </column>
+      <column name="dateBenoemingsdatumErelid">
+        <externalname>E_Benoemingsdatum Erelid</externalname>
+      </column>
+      <column name="dateEBenoemingsdatumErevoorzitter">
+        <externalname>E_Benoemingsdatum Erevoorzitter</externalname>
+      </column>
+      <column name="dateEBenoemingsdatumLidvanVerdienste">
+        <externalname>E_Benoemingsdatum Lid van Verdienste</externalname>
+      </column>
+      <column name="dateEBenoemingsdatumGuldenLid">
+        <externalname>E_Benoemingsdatum Gulden Lid</externalname>
+      </column>
+      <column name="boolCDigitalenieuwsbrief">
+        <externalname>C_Digitale nieuwsbrief</externalname>
+      </column>
+      <column name="txtCMailadresvoordigitalenieuwsbrief">
+        <externalname>C_Mailadres voor digitale nieuwsbrief</externalname>
+      </column>
+      <column name="boolCClubblad">
+        <externalname>C_Clubblad</externalname>
+      </column>
+      <column name="boolVGeenvrijwilligerswerk">
+        <externalname>V_Geen vrijwilligerswerk</externalname>
+      </column>
+      <column name="numCONVROL">
+        <externalname>CONV_ROL</externalname>
+      </column>
+      <column name="txtCONVHOOFDBEW">
+        <externalname>CONV_HOOFDBEW</externalname>
+      </column>
+      <column name="numCONVBEWOONVOLGNR">
+        <externalname>CONV_BEWOONVOLGNR</externalname>
+      </column>
+      <column name="boolCONVSPW">
+        <externalname>CONV_SPW</externalname>
+      </column>
+      <column name="numCONVGACCAT">
+        <externalname>CONV_GAC_CAT</externalname>
+      </column>
+      <column name="numCONVAUCAT">
+        <externalname>CONV_AU_CAT</externalname>
+      </column>
+      <column name="txtOOpzegreden">
+        <externalname>O_Opzegreden</externalname>
+      </column>
+      <column name="txtAAanmelding">
+        <externalname>A_Aanmelding lidmaatschap</externalname>
+      </column>
+      <column name="boolVGebeldJANEE">
+        <externalname>V_Gebeld JA/NEE</externalname>
+      </column>
+      <column name="txtVDoorwiegebeld">
+        <externalname>V_Door wie gebeld?</externalname>
+      </column>
+      <column name="dateVDatumgebeld">
+        <externalname>V_Datum gebeld</externalname>
+      </column>
+      <column name="boolAHuisgenootallid">
+        <externalname>Is er al een huisgenoot lid?</externalname>
+      </column>
+      <column name="boolAKomjevaneenandereAvereniging">
+        <externalname>Kom je van een andere Atletiek vereniging: zie ?</externalname>
+      </column>
+      <column name="txtAIndienJAwie">
+        <externalname>Indien JA, wie?</externalname>
+      </column>
+      <column name="boolFormulierJN">
+        <externalname>FormulierJN</externalname>
+      </column>
+      <column name="txtInschrijfactiviteit">
+        <externalname>Inschrijf-activiteit</externalname>
+      </column>
+      <column name="txtWedstrijdlicentiegewenst">
+        <externalname>Wedstrijdlicentie gewenst</externalname>
+      </column>
+      <column name="txtTalentenvader">
+        <externalname>Talenten Vader</externalname>
+      </column>
+      <column name="txtTalentenMoeder">
+        <externalname>Talenten Moeder</externalname>
+      </column>
+      <column name="txtFederationID01">
+        <externalname>KNLTB - Bondsnr.</externalname>
+      </column>
+      <column name="dateFederationMemberStart01">
+        <externalname>KNLTB - Bondslid m.i.v.</externalname>
+      </column>
+      <column name="dateFederationMemberEnd01">
+        <externalname>KNLTB - Bondslid t/m</externalname>
+      </column>
+      <column name="dateFederationStart01">
+        <externalname>KNLTB - Verzenddatum aanmelding</externalname>
+      </column>
+      <column name="dateFederationEnd01">
+        <externalname>KNLTB - Verzenddatum afmelding</externalname>
+      </column>
+      <column name="dateFederationSent01">
+        <externalname>KNLTB - Verzenddatum laatste mutatie</externalname>
+      </column>
+      <column name="txtFederationStatus01">
+        <externalname>KNLTB - Comm.status</externalname>
+      </column>
+      <column name="txtFederationPhase01">
+        <externalname>KNLTB - Mutatiesoort</externalname>
+      </column>
+      <column name="numFederationMemberType01">
+        <externalname>AU - Soort bondslid</externalname>
+      </column>
+      <column name="dateFederationComparison01">
+        <externalname>AU - Laatste bondsvergelijking</externalname>
+      </column>
+      <column name="txtFederationID02">
+        <externalname>AU - Bondsnr.</externalname>
+      </column>
+      <column name="dateFederationMemberStart02">
+        <externalname>AU - Bondslid m.i.v.</externalname>
+      </column>
+      <column name="dateFederationMemberEnd02">
+        <externalname>AU - Bondslid t/m</externalname>
+      </column>
+      <column name="dateFederationStart02">
+        <externalname>AU - Verzenddatum aanmelding</externalname>
+      </column>
+      <column name="dateFederationEnd02">
+        <externalname>AU - Verzenddatum afmelding</externalname>
+      </column>
+      <column name="dateFederationSent02">
+        <externalname>AU - Verzenddatum laatste mutatie</externalname>
+      </column>
+      <column name="txtFederationStatus02">
+        <externalname>AU - Comm.status</externalname>
+      </column>
+      <column name="txtFederationPhase02">
+        <externalname>AU - Mutatiesoort</externalname>
+      </column>
+      <column name="numAantalaandelen">
+        <externalname>numAantalaandelen</externalname>
+      </column>
+      <column name="numNummervoordeelpas">
+        <externalname>numNummervoordeelpas</externalname>
+      </column>
+      <column name="txtNummeraandelen">
+        <externalname>txtNummeraandelen</externalname>
+      </column>
+      <column name="txtCustom1">
+        <externalname>Meehelpen met activiteiten?</externalname>
+      </column>
+      <column name="txtCustom10">
+        <externalname>Lid geworden door?</externalname>
+      </column>
+      <column name="txtCustom2">
+        <externalname>ACTIELID?</externalname>
+      </column>
+      <column name="txtCustom3">
+        <externalname>Vrij veld 3</externalname>
+      </column>
+      <column name="txtCustom4">
+        <externalname>Vrij veld 4</externalname>
+      </column>
+      <column name="txtCustom5">
+        <externalname>Vrij veld 5</externalname>
+      </column>
+      <column name="txtCustom6">
+        <externalname>Vrij veld 6</externalname>
+      </column>
+      <column name="txtCustom7">
+        <externalname>Vrij veld 7</externalname>
+      </column>
+      <column name="txtCustom8">
+        <externalname>Vrij veld 8</externalname>
+      </column>
+      <column name="txtCustom9">
+        <externalname>Vrij veld 9</externalname>
+      </column>
+      <column name="numFederationMemberType02">
+        <externalname>AU - Soort bondslid</externalname>
+      </column>
+      <column name="dateFederationComparison02">
+        <externalname>AU - Laatste bondsvergelijking</externalname>
+      </column>
+      <column name="dateIncassoAuth">
+        <externalname>Datum incassomachtiging</externalname>
+      </column>
+      <column name="boolIncassoFirst">
+        <externalname>Eerste SEPA-incasso?</externalname>
+      </column>
+      <column name="txtDirectDebitMandate">
+        <externalname>Kenmerk incassomachtiging</externalname>
+      </column>
+      <column name="txtBankIBANPrevious">
+        <externalname>IBAN (oud)</externalname>
+      </column>
+      <column name="txtBankBICPrevious">
+        <externalname>BIC (oud)</externalname>
+      </column>
+      <column name="boolPerAddress">
+        <externalname>Adres - Per adres (p/a)?</externalname>
+      </column>
+      <column name="boolMailPerAddress">
+        <externalname>Postadres - Per adres (p/a)?</externalname>
+      </column>
+      <column name="boolMailInvoicePerAddress">
+        <externalname>Factuuradres - Per adres (p/a)?</externalname>
+      </column>
+      <column name="txtBSN">
+        <externalname>Burgerservicenummer (BSN)</externalname>
+      </column>
+      <column name="txtRSIN">
+        <externalname>RSIN</externalname>
+      </column>
+      <column name="txtBTW">
+        <externalname>BTW-nummer</externalname>
+      </column>
+      <column name="txtLooptijden">
+        <externalname>Looptijden</externalname>
+      </column>
+      <column name="txtRoadie">
+        <externalname>Roadie</externalname>
+      </column>
+      <column name="memEigennotities">
+        <externalname>Eigen notities</externalname>
+      </column>
+      <column name="txtRoadieMail">
+        <externalname>RoadieMail</externalname>
+      </column>
+      <column name="txtGroep">
+        <externalname>Groep</externalname>
+      </column>
+      <column name="txtSEPAmandaatafgegeven">
+        <externalname>SEPA mandaat afgegeven?</externalname>
+      </column>
+      <column name="boolConvlic">
+        <externalname>Conv_lic</externalname>
+      </column>
+      <column name="boolConvblad">
+        <externalname>Conv_blad</externalname>
+      </column>
+      <column name="txtConvfunctie">
+        <externalname>Conv_functie</externalname>
+      </column>
+      <column name="txtConvopm">
+        <externalname>Conv_opm</externalname>
+      </column>
+      <column name="numConvhoofdbewoner">
+        <externalname>Conv_hoofdbewoner</externalname>
+      </column>
+      <column name="numConvmedebewoner">
+        <externalname>Conv_medebewoner</externalname>
+      </column>
+      <column name="txtSoortLidmaatschap">
+        <externalname>Soort Lidmaatschap</externalname>
+      </column>
+      <column name="txtToestemmingAutomatischeIncasso">
+        <externalname>Toestemming Automatische Incasso</externalname>
+      </column>
+      <column name="numAge">
+        <externalname>Leeftijd</externalname>
+      </column>
+      <column name="txtFTPadres">
+        <externalname>FTP-adres</externalname>
+      </column>
+      <column name="txtFTPlogin">
+        <externalname>FTP-login</externalname>
+      </column>
+      <column name="txtFTPwachtwoord">
+        <externalname>FTP-wachtwoord</externalname>
+      </column>
+      <column name="txtCMSID">
+        <externalname>CMS-ID</externalname>
+      </column>
+      <column name="dateContractenverstuurd">
+        <externalname>Contracten verstuurd</externalname>
+      </column>
+      <column name="dateContractenretour">
+        <externalname>Contracten retour</externalname>
+      </column>
+      <column name="dateFactuurbetaald">
+        <externalname>Factuur betaald</externalname>
+      </column>
+      <column name="dateSjabloongeinstalleerd">
+        <externalname>Sjabloon geinstalleerd</externalname>
+      </column>
+      <column name="dateLedenbestandontvangen">
+        <externalname>Ledenbestand ontvangen</externalname>
+      </column>
+      <column name="dateLedenbestandgeimporteerd">
+        <externalname>Ledenbestand geimporteerd</externalname>
+      </column>
+      <column name="dateEindoplevering">
+        <externalname>Eindoplevering</externalname>
+      </column>
+      <column name="dateBestellinggeplaatst">
+        <externalname>Bestelling geplaatst</externalname>
+      </column>
+      <column name="txtURLinstallatie">
+        <externalname>URL installatie (zonder http://)</externalname>
+      </column>
+      <column name="dateDemo">
+        <externalname>Demo klaargezet</externalname>
+      </column>
+      <column name="dateDemoaangevraagd">
+        <externalname>Demo aangevraagd</externalname>
+      </column>
+      <column name="txtDemodirectory">
+        <externalname>Demo-dir.</externalname>
+      </column>
+      <column name="dateDemoeinde">
+        <externalname>Demo t/m</externalname>
+      </column>
+      <column name="dateTijdelijkeoplevering">
+        <externalname>Tijdelijke oplevering</externalname>
+      </column>
+      <column name="txtAdminwachtwoord">
+        <externalname>Admin-wachtwoord</externalname>
+      </column>
+      <column name="txtDomeinnaam">
+        <externalname>Domeinnaam (zonder www)</externalname>
+      </column>
+      <column name="txtSjabloon">
+        <externalname>Sjabloon</externalname>
+      </column>
+      <column name="txtContractenOntbreekt">
+        <externalname>ContractenOntbreekt:</externalname>
+      </column>
+      <column name="memStatus">
+        <externalname>Oplever-/demo-status</externalname>
+      </column>
+      <column name="dateDemomail1verstuurd">
+        <externalname>Demomail 1 verstuurd</externalname>
+      </column>
+      <column name="dateDemomail2verstuurd">
+        <externalname>Demomail 2 verstuurd</externalname>
+      </column>
+      <column name="dateDemomail3verstuurd">
+        <externalname>Demomail 3 verstuurd</externalname>
+      </column>
+      <column name="txtFTProot">
+        <externalname>FTP-websiteroot</externalname>
+      </column>
+      <column name="txtFTPadresTijdelijk">
+        <externalname>FTP-adres Tijdelijk</externalname>
+      </column>
+      <column name="txtFTPloginTijdelijk">
+        <externalname>FTP-login Tijdelijk</externalname>
+      </column>
+      <column name="txtFTPwachtwoordTijdelijk">
+        <externalname>FTP-wachtwoord Tijdelijk</externalname>
+      </column>
+      <column name="txtFTProotTijdelijk">
+        <externalname>FTP-websiteroot Tijdelijk</externalname>
+      </column>
+      <column name="txtDBhost">
+        <externalname>MySQL - DBhost</externalname>
+      </column>
+      <column name="txtDBuser">
+        <externalname>MySQL - DBuser</externalname>
+      </column>
+      <column name="txtDBpassword">
+        <externalname>MySQL - DBpassword</externalname>
+      </column>
+      <column name="txtDBname">
+        <externalname>MySQL - DBname</externalname>
+      </column>
+      <column name="txtURLtijdelijk">
+        <externalname>URL tijdelijk (zonder http://)</externalname>
+      </column>
+      <column name="boolGeenlinkoprelatiesscherm">
+        <externalname>Geen link op relatiesscherm</externalname>
+      </column>
+      <column name="txtDBserver">
+        <externalname>MySQL - DBserver</externalname>
+      </column>
+      <column name="boolDemoavonduitnodigen">
+        <externalname>Demoavond uitnodigen?</externalname>
+      </column>
+      <column name="dateDemolaatstecommunicatie">
+        <externalname>Demo laatste communicatie</externalname>
+      </column>
+      <column name="dateDemoavondbezocht">
+        <externalname>Demoavond bezocht</externalname>
+      </column>
+      <column name="txtAUtoegangscode">
+        <externalname>AU-toegangscode</externalname>
+      </column>
+      <column name="dateVevidaIngangsdatumcontract">
+        <externalname>Vevida - Ingangsdatum contract</externalname>
+      </column>
+      <column name="dateVevidaIngangsdatumSSL">
+        <externalname>Vevida - Ingangsdatum SSL</externalname>
+      </column>
+      <column name="numFederationMemberType04">
+        <externalname>AU - Soort bondslid</externalname>
+      </column>
+      <column name="dateFederationComparison04">
+        <externalname>AU - Laatste bondsvergelijking</externalname>
+      </column>
+      <column name="txtTest2">
+        <externalname>Test</externalname>
+      </column>
+      <column name="dateVDatumopgeroepenkantinedienst">
+        <externalname>V_Datum opgeroepen kantinedienst</externalname>
+      </column>
+      <column name="numClubkledingBetalen">
+        <externalname>Clubkleding Betalen</externalname>
+      </column>
+      <column name="txtStatusNTFU">
+        <externalname>StatusNTFU</externalname>
+      </column>
+      <column name="txtClubklassementww">
+        <externalname>Clubdocumenten ww</externalname>
+      </column>
+      <column name="txtClubklassementGmailadres">
+        <externalname>Clubdocumenten Gmailadres</externalname>
+      </column>
+      <column name="txtRolOrganisatie">
+        <externalname>Rol Organisatie</externalname>
+      </column>
+      <column name="numSponsorbedrag">
+        <externalname>Sponsorbedrag</externalname>
+      </column>
+      <column name="txtVereniging">
+        <externalname>Vereniging</externalname>
+      </column>
+      <column name="txtOpmerkingGoossensOrganisatie">
+        <externalname>Opmerking GoossensOrganisatie</externalname>
+      </column>
+      <column name="txtGPS">
+        <externalname>GPS</externalname>
+      </column>
+      <column name="memOpmerkingRittencaptain">
+        <externalname>Opmerking Rittencaptain</externalname>
+      </column>
+      <column name="txtOpmerkingRabotochtOrganisatie">
+        <externalname>Opmerking RabotochtOrganisatie</externalname>
+      </column>
+      <column name="boolDirectDebitCreditor">
+        <externalname>Incassomachtiging crediteur?</externalname>
+      </column>
+      <column name="dateDirectDebitAuthCreditor">
+        <externalname>Datum incassomachtiging crediteur</externalname>
+      </column>
+      <column name="txtDirectDebitMandateCreditor">
+        <externalname>Kenmerk incassomachtiging crediteur</externalname>
+      </column>
+      <column name="txtIncassantIDCreditor">
+        <externalname>SEPA Incassant ID crediteur</externalname>
+      </column>
+      <column name="dateEinddatumJoR">
+        <externalname>Einddatum JoR-Zorgtraject</externalname>
+      </column>
+      <column name="txtOorsprong">
+        <externalname>Oorsprong</externalname>
+      </column>
+      <column name="txtAanmeldingClinic">
+        <externalname>A_Aanmelding clinic</externalname>
+      </column>
+      <column name="txtCompanion">
+        <externalname>Begeleider/groom</externalname>
+      </column>
+      <column name="numPartyChild">
+        <externalname>Feestavond - # kinderen tot 12 jaar</externalname>
+      </column>
+      <column name="numPartyAdult">
+        <externalname>Feestavond - # volwassenen</externalname>
+      </column>
+      <column name="txtReferer">
+        <externalname>Gevonden via</externalname>
+      </column>
+      <column name="memOpmerking2011">
+        <externalname>Opmerking 2011</externalname>
+      </column>
+      <column name="memOpmerking2012">
+        <externalname>Opmerking 2012</externalname>
+      </column>
+      <column name="memOpmerking2013">
+        <externalname>Opmerking 2013</externalname>
+      </column>
+      <column name="memOpmerking2014">
+        <externalname>Opmerking 2014</externalname>
+      </column>
+      <column name="memOpmerking2015">
+        <externalname>Opmerking 2015</externalname>
+      </column>
+      <column name="boolParking">
+        <externalname>Parkeren menwagen?</externalname>
+      </column>
+      <column name="txtType">
+        <externalname>Soort deelname</externalname>
+      </column>
+      <column name="numStartnr">
+        <externalname>Startnummer</externalname>
+      </column>
+      <column name="txtLoginnaamadminaccount">
+        <externalname>Loginnaam admin-account</externalname>
+      </column>
+      <column name="boolBardienstdraaien">
+        <externalname>Bardienst draaien?</externalname>
+      </column>
+      <column name="memHuishoudelijkReglementgelezen">
+        <externalname>Huishoudelijk Reglement gelezen ?</externalname>
+      </column>
+      <column name="txtBaanreglementgelezen">
+        <externalname>Baanreglement gelezen ?</externalname>
+      </column>
+      <column name="txtWasualelderslidenwatwasuwspeelsterkte">
+        <externalname>Was u al elders lid en wat was uw speelsterkte ?</externalname>
+      </column>
+      <column name="txtHeeftubehoefteaantennisles">
+        <externalname>Heeft u behoefte aan tennisles ??</externalname>
+      </column>
+      <column name="txtWaaromwiljelidwordenvanonzevereniging">
+        <externalname>Waarom wil je lid worden van onze vereniging ?</externalname>
+      </column>
+      <column name="numLeeftijd">
+        <externalname>Leeftijd</externalname>
+      </column>
+      <column name="boolLidvanVEP">
+        <externalname>Lid van VEP?</externalname>
+      </column>
+      <column name="boolOudlidvanVEP">
+        <externalname>Oud-lid van VEP?</externalname>
+      </column>
+      <column name="numLaatstejaarvanlidmaatschap">
+        <externalname>Laatste jaar van lidmaatschap</externalname>
+      </column>
+      <column name="numExtraaantemeldenpersonenonder18jaar">
+        <externalname>Extra aan te melden personen onder 18 jaar</externalname>
+      </column>
+      <column name="numExtraaantemeldenpersonen18jaarenouder">
+        <externalname>Extra aan te melden personen 18 jaar en ouder</externalname>
+      </column>
+      <column name="memVoorenachternamenaantemeldenpersonenenopgavelid">
+        <externalname>Voor- en achternamen aan te melden personen en opgave lid/oud-lid of gast 18 jaar e.o.</externalname>
+      </column>
+      <column name="memVoorenachternamenextraoptegevenpersonentot18jaa">
+        <externalname>Voor- en achternamen extra op te geven personen tot 18 jaar plus opgave lid, oud-lid of gast</externalname>
+      </column>
+      <column name="boolAkkoordmetautincassovan10europervolwen5eurojeu">
+        <externalname>Akkoord met aut.incasso van 10 euro per volw. en 5 euro jeugd</externalname>
+      </column>
+      <column name="numVrijstellingLedenplicht">
+        <externalname>Vrijstelling Ledenplicht</externalname>
+      </column>
+      <column name="dateKantinedienstdatum">
+        <externalname>Kantinedienst datum-1</externalname>
+      </column>
+      <column name="txtBeroep">
+        <externalname>Beroep</externalname>
+      </column>
+      <column name="txtBereidtotvrijwilligerswerk">
+        <externalname>Bereid tot vrijwilligerswerk</externalname>
+      </column>
+      <column name="txtSoortvrijwilligerswerk">
+        <externalname>Soort vrijwilligerswerk</externalname>
+      </column>
+      <column name="txtEmailontvangen">
+        <externalname>E-mail ontvangen</externalname>
+      </column>
+      <column name="txtEnquetesuggesties">
+        <externalname>Enquete suggesties</externalname>
+      </column>
+      <column name="txtRedenbeindiging">
+        <externalname>Reden beëindiging</externalname>
+      </column>
+      <column name="txtLesgroep">
+        <externalname>Lesgroep</externalname>
+      </column>
+      <column name="txtLesmoment">
+        <externalname>Lesmoment</externalname>
+      </column>
+      <column name="dateKantinedienstdatum2">
+        <externalname>Kantinedienst datum-2</externalname>
+      </column>
+      <column name="dateKantinedienstdatum3">
+        <externalname>Kantinedienst datum-3</externalname>
+      </column>
+      <column name="dateKantinedienstdatum4">
+        <externalname>Kantinedienst datum-4</externalname>
+      </column>
+      <column name="dateKantinedienstdatum5">
+        <externalname>Kantinedienst datum-5</externalname>
+      </column>
+      <column name="dateKantinedienstdatumlaatstekeergedraaid">
+        <externalname>Kantinedienst datum - laatste keer gedraaid</externalname>
+      </column>
+      <column name="txtSchoonmaakdatumlaatstekeer">
+        <externalname>Schoonmaak datum laatste keer</externalname>
+      </column>
+      <column name="dateSchoonmaakdatum1">
+        <externalname>Schoonmaak1 datum</externalname>
+      </column>
+      <column name="dateSchoonmaakdatum2">
+        <externalname>Schoonmaak2 datum</externalname>
+      </column>
+      <column name="txtSchoonmaak1opmerking">
+        <externalname>Schoonmaak1-opmerking</externalname>
+      </column>
+      <column name="txtSchoonmaak2opmerking">
+        <externalname>Schoonmaak2-opmerking</externalname>
+      </column>
+      <column name="numSponsorbedragtotaal">
+        <externalname>Sponsorbedrag totaal</externalname>
+      </column>
+      <column name="txtSponsoradvertentie">
+        <externalname>Sponsor-advertentie</externalname>
+      </column>
+      <column name="txtSponsorwinddoek">
+        <externalname>Sponsor-winddoek</externalname>
+      </column>
+      <column name="txtSponsorbaan">
+        <externalname>Sponsor-baan</externalname>
+      </column>
+      <column name="numSponsorbedragadvertentie">
+        <externalname>Sponsorbedrag-advertentie</externalname>
+      </column>
+      <column name="numSponsorbedragbaan">
+        <externalname>Sponsorbedrag-baan</externalname>
+      </column>
+      <column name="memSponsoroverig">
+        <externalname>Sponsor-overig</externalname>
+      </column>
+      <column name="memSponsortoernooi">
+        <externalname>Sponsor-toernooi</externalname>
+      </column>
+      <column name="numSponsorbedragoverig">
+        <externalname>Sponsorbedrag-overig</externalname>
+      </column>
+      <column name="numSponsorbedragtoernooi">
+        <externalname>Sponsorbedrag-toernooi</externalname>
+      </column>
+      <column name="numSponsorbedragwinddoek">
+        <externalname>Sponsorbedrag-winddoek</externalname>
+      </column>
+      <column name="dateSponsorcontracteinddatum">
+        <externalname>Sponsorcontract einddatum</externalname>
+      </column>
+      <column name="txtBetalingstermijnindagen">
+        <externalname>Betalingstermijn in dagen</externalname>
+      </column>
+      <column name="boolPrijsindex">
+        <externalname>Prijsindex</externalname>
+      </column>
+      <column name="txtStilzwijgendeverlenging">
+        <externalname>Stilzwijgende verlenging</externalname>
+      </column>
+      <column name="txtSponsoradvertentieplaats">
+        <externalname>Sponsor-advertentieplaats</externalname>
+      </column>
+      <column name="txtSponsorwinddoekplaats">
+        <externalname>Sponsor-winddoekplaats</externalname>
+      </column>
+      <column name="numSponsorbedragfactuurtotaal">
+        <externalname>Sponsorbedrag-factuur totaal</externalname>
+      </column>
+      <column name="memKantinedienstopmerking">
+        <externalname>Kantinedienst opmerking</externalname>
+      </column>
+      <column name="dateSponsorstoptdatum">
+        <externalname>Sponsor stopt-datum</externalname>
+      </column>
+      <column name="txtCATEGORIE">
+        <externalname>Categorie</externalname>
+      </column>
+      <column name="txtAANGEMELD">
+        <externalname>Aangemeld door</externalname>
+      </column>
+      <column name="txtSTATUS">
+        <externalname>STATUS</externalname>
+      </column>
+      <column name="dateSTARTBLES">
+        <externalname>STARTBLES</externalname>
+      </column>
+      <column name="dateEINDBLES">
+        <externalname>EINDBLES</externalname>
+      </column>
+      <column name="txtDIVERSEN">
+        <externalname>Naam vereniging</externalname>
+      </column>
+      <column name="boolGEMERKT">
+        <externalname>GEMERKT</externalname>
+      </column>
+      <column name="boolMBW">
+        <externalname>Akkoord</externalname>
+      </column>
+      <column name="boolHFB">
+        <externalname>HFB</externalname>
+      </column>
+      <column name="txtTELEFOON2">
+        <externalname>TELEFOON2</externalname>
+      </column>
+      <column name="txtNaamOuder">
+        <externalname>Naam ouder</externalname>
+      </column>
+      <column name="txtEmailOuder">
+        <externalname>Email ouder</externalname>
+      </column>
+      <column name="dateTStartdatum">
+        <externalname>T_Startdatum</externalname>
+      </column>
+      <column name="dateTEinddatum">
+        <externalname>T_Einddatum</externalname>
+      </column>
+      <column name="txtTNiveau">
+        <externalname>T_Niveau</externalname>
+      </column>
+      <column name="dateTDatumbeschikbaar">
+        <externalname>T_Datum beschikbaar</externalname>
+      </column>
+      <column name="memTOpmerkingen">
+        <externalname>T_Opmerkingen</externalname>
+      </column>
+      <column name="dateTDatumlaatstgewijzigd">
+        <externalname>T_Datum laatst gewijzigd</externalname>
+      </column>
+      <column name="txtTNaamwieheefthetlaatstgewijzigd">
+        <externalname>T_Naam wie heeft het laatst gewijzigd?</externalname>
+      </column>
+      <column name="txtRReanimatievoorkeurperiode">
+        <externalname>R_Reanimatie voorkeur periode</externalname>
+      </column>
+      <column name="dateRReanimatiegedaanopdatum">
+        <externalname>R_Reanimatie gedaan op datum</externalname>
+      </column>
+      <column name="txtRMaskertje">
+        <externalname>R_Maskertje</externalname>
+      </column>
+      <column name="txtRFoliedeken">
+        <externalname>R_Foliedeken</externalname>
+      </column>
+      <column name="txtRNaamwieheefthetlaatstgewijzigd">
+        <externalname>R_Naam wie heeft het laatst gewijzigd?</externalname>
+      </column>
+      <column name="dateRDatumlaatstgewijzigd">
+        <externalname>R_Datum laatst gewijzigd</externalname>
+      </column>
+      <column name="memROpmerkingen">
+        <externalname>R_Opmerkingen</externalname>
+      </column>
+      <column name="boolODiplomaGACtrainersopleidingJANEE">
+        <externalname>O_Diploma GAC trainersopleiding JA/NEE</externalname>
+      </column>
+      <column name="dateODatumdiplomaGACtrainer">
+        <externalname>O_Datum GAC trainersdiploma verkregen</externalname>
+      </column>
+      <column name="boolOAUgecertificeerdetrainer">
+        <externalname>O_AU gecertificeerde trainer</externalname>
+      </column>
+      <column name="dateODatumAUcertificaatverkregen">
+        <externalname>O_Datum AU certificaat verkregen</externalname>
+      </column>
+      <column name="memOOpmerkingen">
+        <externalname>O_Opmerkingen</externalname>
+      </column>
+      <column name="txtONaamwieheefthetlaatstgewijzigd">
+        <externalname>O_Naam wie heeft het laatst gewijzigd?</externalname>
+      </column>
+      <column name="dateODatumlaatstgewijzigd">
+        <externalname>O_Datum laatst gewijzigd</externalname>
+      </column>
+      <column name="dateODatumlaatstebijscholing">
+        <externalname>O_Datum laatste bijscholing gevolgd</externalname>
+      </column>
+      <column name="numAmountTotalOpenInvoices">
+        <externalname>Totaal openstaande facturen</externalname>
+      </column>
+    </columns>
+  </table>
+</dbtable>

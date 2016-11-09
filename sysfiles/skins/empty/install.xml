@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<skin>
+  <configvars>
+    <var name="NavType">UL</var>
+    <var name="NavSubMenuIndicator" />
+    <var name="SiteTemplateStyles">css/styles_global.css</var>
+    <var name="TablelessForms">True</var>
+    <var name="ResponsiveGrids">True</var>
+    <var name="FacebookLikeWidgetLayout">standard</var>
+  </configvars>
+</skin>
